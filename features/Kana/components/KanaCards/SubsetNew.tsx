@@ -15,7 +15,7 @@ import { cn } from '@/shared/utils/utils';
  * to count as fully mastered (progress bar = 100% for that character).
  * Averaging across all characters in the row gives the row's overall progress.
  */
-export const KANA_ROW_MASTERY_TARGET = 40;
+export const KANA_ROW_MASTERY_TARGET = 35;
 const KANA_MAX_STARS = 3;
 const KANA_ROW_MASTERY_CAP = KANA_ROW_MASTERY_TARGET * KANA_MAX_STARS;
 
